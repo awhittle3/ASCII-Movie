@@ -15,7 +15,7 @@ def main():
 def processPlay():
     TIME_STEP = 0.3
     
-    label = tk.Label(window, text = "")
+    label = tk.Label(window, text = "", font = ("Courier"))
     label.pack()
     count = 0
     
